@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.favorite-btn {
+  @apply cursor-pointer mt-2 px-4 py-2 rounded-md text-sm font-medium transition-transform transform hover:scale-105 active:scale-95 bg-gray-100
+}
