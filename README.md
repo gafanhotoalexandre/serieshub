@@ -2,6 +2,8 @@
 
 Uma aplicação web para explorar e favoritar séries de TV, construída com React, TypeScript e Tailwind CSS. O projeto utiliza a API do TMDB (The Movie Database) para obter informações sobre séries populares.
 
+![Banner SeriesHub](/public/SeriesHub_banner.png)
+
 ## 🚀 Funcionalidades
 
 - **Autenticação de Usuário**
