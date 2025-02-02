@@ -4,6 +4,7 @@ import { Route, Routes, useLocation } from 'react-router'
 import { RootLayout } from './layout'
 import { HomePage } from './pages/home'
 import { AuthPage } from './pages/auth/register'
+import { NotFound } from './pages/not-found'
 
 function App() {
   const location = useLocation()
@@ -18,6 +19,7 @@ function App() {
         <Route element={<RootLayout />}>
           <Route index element={<HomePage />} />
           <Route path="auth" element={<AuthPage />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </>
